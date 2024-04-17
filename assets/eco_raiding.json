@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Twig Foundation",
+        "image": "assets/images/foundation0.png",
+        "description": "Lowest tier of building foundation that can be easily broken with most weapons and tools, not recommended for permanent structures. Can be useful for scaling high external walls for raids.",
+        "category": "Twig",
+        "decay_hours": "1",
+        "health": "10",
+        "eco_raiding": [
+          {"tool": "assets/images/knife.skinning.png", "quantity": 2, "time_in_sec": "18"},
+          {"tool": "assets/images/flashlight.held.png", "quantity": 3, "time_in_sec": "36"},
+          {"tool": "assets/images/jackhammer.png", "quantity": 1, "time_in_sec": "5"},
+          {"tool": "assets/images/jackhammer.refill.png", "quantity": 1, "time_in_sec": "5"},
+          {"tool": "assets/images/shovel.png", "quantity": 2, "time_in_sec": "51"}
+        ]
+      },
+      {
+      "name": "Metal Foundation",
+      "image": "assets/images/foundation3.png",
+      "description": "Metal is the third tier of building material, more durable than stone but less so than armored. The 'soft side' of foundation (that portion which receives dramatically more damage when attacked) is the top.",
+      "category": "Metal",
+      "decay_hours": "8",
+      "health": "1000"
+    },
+    {
+      "name": "Stone Foundation",
+      "image": "assets/images/foundation2.png",
+      "description": "The top is the 'soft side' and the sides of the foundation are the 'strong side'. If you can get to the top of the foundation, you can pick it out.",
+      "category": "Stone",
+      "decay_hours": "5",
+      "health": "500"
+    },
+    {
+      "name": "Armored Foundation",
+      "image": "assets/images/foundation4.png",
+      "description": "Armored is the fourth and highest tier of building material. The 'soft side' of foundation (that portion which receives dramatically more damage when attacked) is the top.",
+      "category": "Armor",
+      "decay_hours": "12",
+      "health": "2000"
+    },
+    {
+      "name": "Wooden Foundation",
+      "image": "assets/images/foundation1.png",
+      "description": "The Wooden Foundation is one of the current 5 types of foundations, being the first upgrade from the Twig Foundation. As with any other Foundation block, its' purpose is to be the starter block of a base, from which walls, floors, other foundations and objects can be used to expand it. The 'soft side' of the Wooden Foundation is accessible by the top of said Foundation. It is far easier to destroy any building block from its' 'soft side', making it an important part of your base to protect. If a Foundation is destroyed, the Stability stat of blocks attached to it is significantly reduced, potentially to 0%. A complete loss of Stability causes immediate destruction of a building block; use this to your advantage, and be wary of it.",
+      "category": "Wood",
+      "decay_hours": "3",
+      "health": "250"
+    },
+    {
+        "name": "Twig Wall",
+        "image": "assets/images/foundation0.png",
+        "description": "The lowest tier wall and can be easily broken very quickly with most weapons or tools.",
+        "category": "Twig",
+        "decay_hours": "1",
+        "health": "10"
+      },
+      {
+        "name": "Armored Wall",
+        "image": "assets/images/foundation4.png",
+        "description": "The Armored Wall is the best type of Defense in any base. Use sparingly due to its expensive cost to make and upkeep, therefore use it to protect your most valuable items.",
+        "category": "Armor",
+        "decay_hours": "12",
+        "health": "2000"
+      },
+      {
+        "name": "Armored Window",
+        "image": "assets/images/foundation4.png",
+        "description": "The Armored Window is a twig window upgraded to high-quality metal, for 35 wood and 18 high-quality metal. It is the strongest window, having twice the durability of the metal window. Windows, window bars, embrasures, and shutters can be placed on this window. It is very useful for protecting a tool cupboard room, as raiders will be forced to go through the window instead of a wall.",
+        "category": "Armor",
+        "decay_hours": "12",
+        "health": "2000"
+      },
+      {
+        "name": "Armored Half Wall",
+        "image": "assets/images/foundation4.png",
+        "description": "The Armored Half Wall is the strongest Half Wall, it is mainly used for the honeycombing of roofs,often used in bases with sealed off loot.",
+        "category": "Armor",
+        "decay_hours": "12",
+        "health": "2000"
+      }
+  ]
+  

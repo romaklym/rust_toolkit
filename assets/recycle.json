@@ -1,0 +1,327 @@
+[
+    {
+      "name": "Rocket Launcher",
+      "image": "assets/images/rocket.launcher.png",
+      "description": "The Rocket Launcher is a utility weapon which is primarily used for raiding and base defense. It fires a single rocket at a time and must be reloaded between uses. When loaded with regular Rockets, it can be utilized as an end-game raiding tool, capable of damaging multiple building parts at once. If loaded with Incendiary Rockets, the Rocket Launcher may be used as an area denial tool to spread fire to an area to prevent movement through it. Regular rockets or High Velocity Rockets may also be used as an efficient, but expensive, weapon to be used against players, as its high damage usually means an instant kill.",
+      "category": "Raiding",
+      "info": [
+        {"information": "Despawn Timer", "count": 60}
+      ],
+      "ingredients": [
+        {"image": "assets/images/metal.refined.png", "quantity": 40},
+        {"image": "assets/images/metalpipe.png", "quantity": 4}
+      ],
+      "research": [
+        {"image_tool": "assets/images/research.table.png", "image": "assets/images/scrap.png", "quantity": 500},
+        {"image_tool": "assets/images/workbench2.png", "image": "assets/images/scrap.png", "quantity": 2300}
+      ],
+      "recycle": [
+        {"image": "assets/images/metal.refined.png", "name": "High Quality Metal","quantity": 20.0},
+        {"image": "assets/images/metalpipe.png", "name": "Metal Pipe","quantity": 2.0}
+      ],
+      "recycle_all": [
+        {"image": "assets/images/metal.refined.png", "name": "High Quality Metal","quantity": 22.0},
+        {"image": "assets/images/scrap.png", "name": "Scrap","quantity": 10.0}
+      ],
+      "loot": [
+        {"container": "Treasure Box", "chance": 2},
+        {"container": "Locked Crate", "chance": 2},
+        {"container": "Elite Tier Crate", "chance": 1},
+        {"container": "Military Crate", "chance": 0.5},
+        {"container": "Underwater Lab Yellow Crate", "chance": 0.5},
+        {"container": "Wagon Military Crate", "chance": 0.5},
+        {"container": "NVG Scientist", "chance": 0.3},
+        {"container": "Military Base Scientist", "chance": 0.09},
+        {"container": "Patrol Scientist", "chance": 0.09},
+        {"container": "Excavator Scientist", "chance": 0.09},
+        {"container": "Heavy Scientist", "chance": 0.08},
+        {"container": "Oil Rig Scientist", "chance": 0.08},
+        {"container": "Cargo Ship Scientist", "chance": 0.08},
+        {"container": "Arctic Scientist", "chance": 0.08}
+      ]
+    },
+    {
+      "name": "Explosives",
+      "image": "assets/images/explosives.png",
+      "description": "Explosives are used in more powerful raiding devices. They cannot be used on their own, only as an ingredient.",
+      "category": "Tools",
+      "info": [
+        {"information": "Despawn Timer", "count": 60}
+      ],
+      "ingredients": [
+        {"image": "assets/images/gunpowder.png", "quantity": 50},
+        {"image": "assets/images/lowgradefuel.png", "quantity": 3},
+        {"image": "assets/images/sulfur.png", "quantity": 10},
+        {"image": "assets/images/metal.fragments.png", "quantity": 10}
+      ],
+      "research": [
+        {"image_tool": "assets/images/research.table.png", "image": "assets/images/scrap.png", "quantity": 500},
+        {"image_tool": "assets/images/workbench3.png", "image": "assets/images/scrap.png", "quantity": 1625}
+      ],
+      "recycle": [
+        {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 25.0},
+        {"image": "assets/images/lowgradefuel.png", "name": "Low Grade Fuel","quantity": 2.0},
+        {"image": "assets/images/sulfur.png", "name": "Sulfur","quantity": 5.0},
+        {"image": "assets/images/metal.fragments.png", "name": "Metal Fragments","quantity": 5.0}
+      ],
+      "recycle_all": [
+        {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 25.0},
+        {"image": "assets/images/lowgradefuel.png", "name": "Low Grade Fuel","quantity": 2.0},
+        {"image": "assets/images/sulfur.png", "name": "Sulfur","quantity": 5.0},
+        {"image": "assets/images/metal.fragments.png", "name": "Metal Fragments","quantity": 5.0}
+      ],
+      "loot": [
+        {"container": "Helicopter Crate", "chance": 1},
+        {"container": "Locked Crate", "chance": 13},
+        {"container": "Elite Tier Crate", "chance": 3},
+        {"container": "Heavy Scientist", "chance": 0.3}
+      ]
+    },
+      {
+        "name": "Timed Explosive Charge",
+        "image": "assets/images/explosive.timed.png",
+        "description": "The Timed Explosive Charge, mostly knowns as C4, is an item often used when raiding other players. Once thrown, the charge will stick to walls, floors, doors and deployable items. Once attached to a target, the timed explosives will automatically detonate in a dependable and quick manner (in comparison to it's unreliable counterpart, the Satchel Charge). However, it does damage only to the structure it's attached to. If attached to a door, for example, it would destroy it without damaging the door frame or nearby walls. This item deals the most damage out of all explosive devices, and is the most ideal/useful for evicting your neighbors. It's important to protect this item from your enemies, as it can prove fatal once it's in the wrong hands.",
+        "category": "Raiding",
+        "info": [
+          {"information": "Despawn Timer", "count": 60}
+        ],
+        "ingredients": [
+          {"image": "assets/images/explosives.png", "quantity": 20},
+          {"image": "assets/images/cloth.png", "quantity": 5},
+          {"image": "assets/images/techparts.png", "quantity": 2}
+        ],
+        "research": [
+          {"image_tool": "assets/images/research.table.png", "image": "assets/images/scrap.png", "quantity": 500},
+          {"image_tool": "assets/images/workbench3.png", "image": "assets/images/scrap.png", "quantity": 2125}
+        ],
+        "recycle": [
+          {"image": "assets/images/explosives.png", "name": "Explosives","quantity": 10.0},
+          {"image": "assets/images/cloth.png", "name": "Cloth","quantity": 3.0},
+          {"image": "assets/images/techparts.png", "name": "Tech Trash","quantity": 1.0}
+        ],
+        "recycle_all": [
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 250.0},
+          {"image": "assets/images/lowgradefuel.png", "name": "Low Grade Fuel","quantity": 20.0},
+          {"image": "assets/images/sulfur.png", "name": "Sulfur","quantity": 50.0},
+          {"image": "assets/images/metal.fragments.png", "name": "Metal Fragments","quantity": 50.0},
+          {"image": "assets/images/cloth.png", "name": "Cloth","quantity": 3.0},
+          {"image": "assets/images/metal.refined.png", "name": "High Quality Metal","quantity": 1.0},
+          {"image": "assets/images/scrap.png", "name": "Scrap","quantity": 20.0}
+        ],
+        "loot": [
+          {"container": "Helicopter Crate", "chance": 26},
+          {"container": "APC Crate", "chance": 25},
+          {"container": "Supply Drop", "chance": 14},
+          {"container": "Locked Crate", "chance": 14},
+          {"container": "Elite Tier Crate", "chance": 3},
+          {"container": "Heavy Scientist", "chance": 0.3}
+        ]
+      },
+      {
+        "name": "Explosive 5.56 Rifle Ammo",
+        "image": "assets/images/ammo.rifle.explosive.png",
+        "description": "A variant of the standard 5.56 rifle ammunition. The Explosive 5.56 round deals a small amount of additional explosion damage to a player upon direct impact as well as damaging nearby structures or players. The round is effective against low-tier structures such as Wood walls and Sheet Metal doors.",
+        "category": "Raiding",
+        "info": [
+          {"information": "Despawn Timer", "count": 40}
+        ],
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 10},
+          {"image": "assets/images/gunpowder.png", "quantity": 20},
+          {"image": "assets/images/sulfur.png", "quantity": 10}
+        ],
+        "research": [
+          {"image_tool": "assets/images/research.table.png", "image": "assets/images/scrap.png", "quantity": 125},
+          {"image_tool": "assets/images/workbench3.png", "image": "assets/images/scrap.png", "quantity": 1125}
+        ],
+        "recycle": [
+          {"image": "assets/images/metal.fragments.png", "name": "Metal Fragments","quantity": 3.0},
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 5.0},
+          {"image": "assets/images/sulfur.png", "name": "Sulfur","quantity": 3.0}
+        ],
+        "recycle_all": [
+          {"image": "assets/images/metal.fragments.png", "name": "Metal Fragments","quantity": 3.0},
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 5.0},
+          {"image": "assets/images/sulfur.png", "name": "Sulfur","quantity": 3.0}
+        ],
+        "loot": [
+          {"container": "APC Crate", "chance": 25},
+          {"container": "Helicopter Crate", "chance": 15},
+          {"container": "Underwater Lab Ammo Crate", "chance": 7},
+          {"container": "Supply Drop", "chance": 7},
+          {"container": "Heavy Scientist", "chance": 6},
+          {"container": "Locked Crate", "chance": 6},
+          {"container": "Oil Rig Scientist", "chance": 0.2},
+          {"container": "Excavator Scientist", "chance": 0.2},
+          {"container": "Cargo Ship Scientist", "chance": 0.2},
+          {"container": "Military Base Scientist", "chance": 0.2},
+          {"container": "NVG Scientist", "chance": 0.2},
+          {"container": "Arctic Scientist", "chance": 0.2},
+          {"container": "Patrol Scientist", "chance": 0.2},
+          {"container": "Tool Box", "chance": 0.1},
+          {"container": "Underwater Lab Tool Box", "chance": 0.1},
+          {"container": "Sunken Crate", "chance": 0.1}
+        ]
+      },
+      {
+        "name": "Rocket",
+        "image": "assets/images/ammo.rocket.basic.png",
+        "description": "In Rust, rockets are the ammunition for rocket launchers, rockets will cause splash damage that can hit up to 4 walls at once. This type of ammunition is particularly effective against buildings. In terms of trajectory, rockets are launched forward with a considerable speed upon firing. However, the trajectory eventually falls off due to the in-game gravity effect. Rockets are currently one of the best tools for raiding and destroying buildings. Rockets are also deadly against players due to its high damage and range of splash damage.",
+        "category": "Raiding",
+        "info": [
+          {"information": "Despawn Timer", "count": 60}
+        ],
+        "ingredients": [
+          {"image": "assets/images/metalpipe.png", "quantity": 2},
+          {"image": "assets/images/gunpowder.png", "quantity": 150},
+          {"image": "assets/images/explosives.png", "quantity": 10}
+        ],
+        "research": [
+          {"image_tool": "assets/images/research.table.png", "image": "assets/images/scrap.png", "quantity": 125},
+          {"image_tool": "assets/images/workbench3.png", "image": "assets/images/scrap.png", "quantity": 2250}
+        ],
+        "recycle": [
+          {"image": "assets/images/metalpipe.png", "name": "Metal Pipe","quantity": 1.0},
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 75.0},
+          {"image": "assets/images/explosives.png", "name": "Explosives","quantity": 5.0}
+        ],
+        "recycle_all": [
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 200.0},
+          {"image": "assets/images/lowgradefuel.png", "name": "Low Grade Fuel","quantity": 10.0},
+          {"image": "assets/images/sulfur.png", "name": "Sulfur","quantity": 25.0},
+          {"image": "assets/images/metal.fragments.png", "name": "Metal Fragments","quantity": 25.0},
+          {"image": "assets/images/metal.refined.png", "name": "High Quality Metal","quantity": 1.0},
+          {"image": "assets/images/scrap.png", "name": "Scrap","quantity": 5.0}
+        ],
+        "loot": [
+          {"container": "Helicopter Crate", "chance": 25},
+          {"container": "Locked Crate", "chance": 6}
+        ]
+      },
+      {
+        "name": "Satchel Charge",
+        "image": "assets/images/explosive.satchel.png",
+        "description": "The Satchel Charge is a midgame raiding tool that can be used to destroy player-made buildings for the purpose of entering and looting another player's base. The Satchel charge becomes armed when placed, has a random time until detonation, and has a small chance to malfunction, requiring the user to pick up and rearm the Charge. Note that sometimes the charge will re-ignite when the dud is picked up, going off with a very short fuse!",
+        "category": "Raiding",
+        "info": [
+          {"information": "Despawn Timer", "count": 40}
+        ],
+        "ingredients": [
+          {"image": "assets/images/grenade.beancan.png", "quantity": 4},
+          {"image": "assets/images/stash.small.png", "quantity": 1},
+          {"image": "assets/images/rope.png", "quantity": 1}
+        ],
+        "research": [
+          {"image_tool": "assets/images/research.table.png", "image": "assets/images/scrap.png", "quantity": 125},
+          {"image_tool": "assets/images/workbench3.png", "image": "assets/images/scrap.png", "quantity": 2250}
+        ],
+        "recycle": [
+          {"image": "assets/images/grenade.beancan.png", "name": "Beancan grenade","quantity": 2.0},
+          {"image": "assets/images/stash.small.png", "name": "Stash","quantity": 0.0},
+          {"image": "assets/images/rope.png", "name": "Rope in feet","quantity": 0.0}
+        ],
+        "recycle_all": [
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 60.0},
+          {"image": "assets/images/metal.fragments.png", "name": "Metal Fragments","quantity": 20.0},
+          {"image": "assets/images/cloth.png", "name": "Cloth","quantity": 10.0}
+        ],
+        "loot": [
+          {"container": "Supply Drop", "chance": 29},
+          {"container": "Sunken Chest", "chance": 1},
+          {"container": "Underwater Lab Blue Crate", "chance": 1},
+          {"container": "Crate", "chance": 1},
+          {"container": "Wagon Crate", "chance": 0.5},
+          {"container": "Patrol Scientist", "chance": 0.2},
+          {"container": "Military Base Scientist", "chance": 0.2},
+          {"container": "Arctic Scientist", "chance": 0.2},
+          {"container": "Oil Rig Scientist", "chance": 0.2},
+          {"container": "Underwater Dweller", "chance": 0.2},
+          {"container": "Tunnel Dweller", "chance": 0.2},
+          {"container": "Excavator Scientist", "chance": 0.2},
+          {"container": "Cargo Ship Scientist", "chance": 0.2}
+        ]
+      },
+      {
+        "name": "MLRS Rocket",
+        "image": "assets/images/ammo.rocket.mlrs.png",
+        "description": "The MLRS Rocket is a projectile for the MLRS, they are found in Locked Crates as well as the MLRS Aiming Module. It has lethal damage to both structures and players. 3 SAM Sites can easily destroy the projectiles.",
+        "category": "Raiding",
+        "info": [
+          {"information": "Despawn Timer", "count": 60}
+        ],
+        "ingredients": [],
+        "research": [],
+        "recycle": [
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 100.0},
+          {"image": "assets/images/scrap.png", "name": "Scrap","quantity": 10.0},
+          {"image": "assets/images/metal.refined.png", "name": "High Quality Metal","quantity": 2.0}
+        ],
+        "recycle_all": [
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 100.0},
+          {"image": "assets/images/metal.refined.png", "name": "High Quality Metal","quantity": 2.0},
+          {"image": "assets/images/scrap.png", "name": "Scrap","quantity": 10.0}
+        ],
+        "loot": [
+          {"container": "APC Crate", "chance": 97},
+          {"container": "Elite Tier Crate", "chance": 50},
+          {"container": "Helicopter Crate", "chance": 15}
+        ]
+      },
+      {
+        "name": "High Velocity Rocket",
+        "image": "assets/images/ammo.rocket.hv.png",
+        "description": "The High Velocity Rocket is essentially a rocket with much less damage than the standard rocket. However, it is also much cheaper, and as the name suggests it has a higher velocity than the standard rocket, so it could be useful for rocketing targets at extreme range. Because of its lower cost and damage, it is useful for situations where a full rocket would be overkill.",
+        "category": "Raiding",
+        "info": [
+          {"information": "Despawn Timer", "count": 60}
+        ],
+        "ingredients": [],
+        "research": [],
+        "recycle": [
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder", "quantity": 50.0},
+          {"image": "assets/images/scrap.png", "name": "Scrap","quantity": 10.0},
+          {"image": "assets/images/metal.refined.png", "name": "High Quality Metal","quantity": 2.0}
+        ],
+        "recycle_all": [
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder","quantity": 50.0},
+          {"image": "assets/images/metal.refined.png", "name": "High Quality Metal","quantity": 1.0},
+          {"image": "assets/images/scrap.png", "name": "Scrap","quantity": 5.0}
+        ],
+        "loot": [
+          {"container": "APC Crate", "chance": 97},
+          {"container": "Elite Tier Crate", "chance": 50},
+          {"container": "Helicopter Crate", "chance": 15}
+        ]
+      },
+      {
+        "name": "Incendiary Rocket",
+        "image": "assets/images/ammo.rocket.fire.png",
+        "description": "Incendiary rockets spread flames over the area of impact, dealing fire damage to its surroundings. It deals heavy damage to wooden structures and turrets. They can also be used effectively to trap and kill players in an enclosed space.",
+        "category": "Raiding",
+        "info": [
+          {"information": "Despawn Timer", "count": 60}
+        ],
+        "ingredients": [],
+        "research": [],
+        "recycle": [
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder", "quantity": 125.0},
+          {"image": "assets/images/metalpipe.png", "name": "Metal Pipe","quantity": 1.0},
+          {"image": "assets/images/lowgradefuel.png", "name": "Low Grade Fuel","quantity": 125.0},
+          {"image": "assets/images/explosives.png", "name": "Explosives","quantity": 0.5}
+        ],
+        "recycle_all": [
+          {"image": "assets/images/gunpowder.png", "name": "Gunpowder", "quantity": 137.5},
+          {"image": "assets/images/metal.refined.png", "name": "High Quality Metal","quantity": 1.0},
+          {"image": "assets/images/lowgradefuel.png", "name": "Low Grade Fuel","quantity": 127.0},
+          {"image": "assets/images/sulfur.png", "name": "Sulfur","quantity": 2.5},
+          {"image": "assets/images/metal.fragments.png", "name": "Metal Fragments","quantity": 2.5},
+          {"image": "assets/images/scrap.png", "name": "Scrap","quantity": 5.0}
+        ],
+        "loot": [
+          {"container": "APC Crate", "chance": 97},
+          {"container": "Elite Tier Crate", "chance": 50},
+          {"container": "Helicopter Crate", "chance": 15}
+        ]
+      }
+  ]
+  

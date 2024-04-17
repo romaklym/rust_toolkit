@@ -1,0 +1,836 @@
+[
+    {
+      "name": "Rocket Launcher",
+      "image": "assets/images/rocket.launcher.png",
+      "description": "The Rocket Launcher is a utility weapon which is primarily used for raiding and base defense. It fires a single rocket at a time and must be reloaded between uses. When loaded with regular Rockets, it can be utilized as an end-game raiding tool, capable of damaging multiple building parts at once. If loaded with Incendiary Rockets, the Rocket Launcher may be used as an area denial tool to spread fire to an area to prevent movement through it. Regular rockets or High Velocity Rockets may also be used as an efficient, but expensive, weapon to be used against players, as its high damage usually means an instant kill.",
+      "category": "Raiding",
+      "info": [
+        {"information": "Despawn Timer", "count": 60}
+      ],
+      "ingredients": [
+        {"image": "assets/images/metal.refined.png", "quantity": 40},
+        {"image": "assets/images/metalpipe.png", "quantity": 4}
+      ],
+      "research": [
+        {"image_tool": "assets/images/research.table.png", "image": "assets/images/scrap.png", "quantity": 500},
+        {"image_tool": "assets/images/workbench2.png", "image": "assets/images/scrap.png", "quantity": 2300}
+      ],
+      "recycle": [
+        {"image": "assets/images/metal.refined.png", "quantity": 20},
+        {"image": "assets/images/metalpipe.png", "quantity": 2}
+      ],
+      "loot": [
+        {"container": "Treasure Box", "chance": 2},
+        {"container": "Locked Crate", "chance": 2},
+        {"container": "Elite Tier Crate", "chance": 1},
+        {"container": "Military Crate", "chance": 0.5},
+        {"container": "Underwater Lab Yellow Crate", "chance": 0.5},
+        {"container": "Wagon Military Crate", "chance": 0.5},
+        {"container": "NVG Scientist", "chance": 0.3},
+        {"container": "Military Base Scientist", "chance": 0.09},
+        {"container": "Patrol Scientist", "chance": 0.09},
+        {"container": "Excavator Scientist", "chance": 0.09},
+        {"container": "Heavy Scientist", "chance": 0.08},
+        {"container": "Oil Rig Scientist", "chance": 0.08},
+        {"container": "Cargo Ship Scientist", "chance": 0.08},
+        {"container": "Arctic Scientist", "chance": 0.08}
+      ]
+    },
+    {
+      "name": "Large Furnace",
+      "image": "assets/images/furnace.large.png",
+      "description": "The Large Furnace is used for smelting larger quantities of ore, faster than a regular furnace. The ores that can be smelted using a Large Furnace are: Metal Ore, Sulfur Ore and High Quality Metal Ore. Wood is used as the fuel for smelting and the Large Furnace holds 2 stacks of wood for up to 2000 total. There are 5 slots for raw materials so a total of 5000 ore can be smelted at once. There are 5 output slots which will fill with your finished product and charcoal. The Large Furnace must be placed on terrain and takes up 4 square foundations space. The Large Furnace cannot be placed on foundations or floors.",
+      "category": "Items",
+      "ingredients": [
+        {"image": "assets/images/stones.png", "quantity": 500},
+        {"image": "assets/images/wood.png", "quantity": 600},
+        {"image": "assets/images/lowgradefuel.png", "quantity": 75}
+      ]
+    },
+    {
+      "name": "Workbench Level 2",
+      "image": "assets/images/workbench2.png",
+      "description": "The tier 2 Work bench allows you to craft mid-game weapons, armor, and building parts while in the vicinity of the work bench. Uses the same amount of space like the Tier One Workbench",
+      "category": "Items",
+      "ingredients": [
+        {"image": "assets/images/metal.fragments.png", "quantity": 500},
+        {"image": "assets/images/metal.refined.png", "quantity": 20},
+        {"image": "assets/images/scrap.png", "quantity": 500}
+      ]
+    },
+    {
+      "name": "Workbench Level 1",
+      "image": "assets/images/workbench1.png",
+      "description": "The Large Furnace is used for smelting larger quantities of ore, faster than a regular furnace. The ores that can be smelted using a Large Furnace are: Metal Ore, Sulfur Ore and High Quality Metal Ore. Wood is used as the fuel for smelting and the Large Furnace holds 2 stacks of wood for up to 2000 total.\nThere are 5 slots for raw materials so a total of 5000 ore can be smelted at once.\nThere are 5 output slots which will fill with your finished product and charcoal.\nThe Large Furnace must be placed on terrain and takes up 4 square foundations space.\nThe Large Furnace cannot be placed on foundations or floors.",
+      "category": "Items",
+      "ingredients": [
+        {"image": "assets/images/wood.png", "quantity": 500},
+        {"image": "assets/images/metal.fragments.png", "quantity": 100},
+        {"image": "assets/images/scrap.png", "quantity": 50}
+      ]
+    },
+    {
+        "name": "Semi-Automatic Rifle",
+        "image": "assets/images/rifle.semiauto.png",
+        "description": "The Semi-Automatic Rifle is a staple of low quality weapons due to its high cost-efficiency. With its medium-tier damage, comparatively low recoil and high accuracy, the Semi-Automatic Rifle is the jack of all trades, but master of none.",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/semibody.png", "quantity": 1},
+          {"image": "assets/images/metalspring.png", "quantity": 1},
+          {"image": "assets/images/metal.fragments.png", "quantity": 450},
+          {"image": "assets/images/metal.refined.png", "quantity": 4}
+        ]
+      },
+      {
+        "name": "Workbench Level 3",
+        "image": "assets/images/workbench3.png",
+        "description": "The tier 3 Work Bench allows you to craft the highest tier of weapons, armor, and defenses.",
+        "category": "Items",
+        "ingredients": [
+            {"image": "assets/images/metal.fragments.png", "quantity": 1000},
+            {"image": "assets/images/metal.refined.png", "quantity": 100},
+            {"image": "assets/images/scrap.png", "quantity": 1250}
+        ]
+      },
+      {
+        "name": "F1 Grenade",
+        "image": "assets/images/grenade.f1.png",
+        "description": "End game grenade often used in combat. Unlike the Beancan Grenade, the F1 Grenade is much more reliable as it does not dud or randomly explode.",
+        "category": "Weapons",
+        "ingredients": [
+            {"image": "assets/images/gunpowder.png", "quantity": 30},
+            {"image": "assets/images/metal.fragments.png", "quantity": 25}
+        ]
+      },
+      {
+        "name": "Molotov Cocktail",
+        "image": "assets/images/grenade.molotov.png",
+        "description": "An incendiary device",
+        "category": "Weapons",
+        "ingredients": [
+            {"image": "assets/images/cloth.png", "quantity": 10},
+            {"image": "assets/images/lowgradefuel.png", "quantity": 50}
+        ]
+      },
+      {
+        "name": "Assault Rifle",
+        "image": "assets/images/rifle.ak.png",
+        "description": "The Assault Rifle is an accurate, powerful, and fully automatic rifle that fires 5.56 rifle rounds. It has a moderate rate of fire which allows for proficiency at close to medium range. Strong recoil makes it more difficult to fire in full-auto at long range, but experienced users may be able to control it more effectively. The Assault Rifle is generally used as an end-game multipurpose weapon, able to take fights at any range.",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/riflebody.png", "quantity": 1},
+          {"image": "assets/images/metalspring.png", "quantity": 1},
+          {"image": "assets/images/wood.png", "quantity": 200},
+          {"image": "assets/images/metal.refined.png", "quantity": 50}
+        ]
+      },
+      {
+        "name": "Explosive 5.56 Rifle Ammo",
+        "image": "assets/images/ammo.rifle.explosive.png",
+        "description": "A variant of the standard 5.56 rifle ammunition. The Explosive 5.56 round deals a small amount of additional explosion damage to a player upon direct impact as well as damaging nearby structures or players. The round is effective against low-tier structures such as Wood walls and Sheet Metal doors.",
+        "category": "Tools",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 10},
+          {"image": "assets/images/gunpowder.png", "quantity": 20},
+          {"image": "assets/images/sulfur.png", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Explosives",
+        "image": "assets/images/explosives.png",
+        "description": "Explosives are used in more powerful raiding devices. They cannot be used on their own, only as an ingredient.",
+        "category": "Tools",
+        "ingredients": [
+          {"image": "assets/images/gunpowder.png", "quantity": 50},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 3},
+          {"image": "assets/images/sulfur.png", "quantity": 10},
+          {"image": "assets/images/metal.fragments.png", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Timed Explosive Charge",
+        "image": "assets/images/explosive.timed.png",
+        "description": "The Timed Explosive Charge, mostly knowns as C4, is an item often used when raiding other players. Once thrown, the charge will stick to walls, floors, doors and deployable items. Once attached to a target, the timed explosives will automatically detonate in a dependable and quick manner (in comparison to it's unreliable counterpart, the Satchel Charge). However, it does damage only to the structure it's attached to. If attached to a door, for example, it would destroy it without damaging the door frame or nearby walls. This item deals the most damage out of all explosive devices, and is the most ideal/useful for evicting your neighbors. It's important to protect this item from your enemies, as it can prove fatal once it's in the wrong hands.",
+        "category": "Raiding",
+        "info": [
+          {"information": "Despawn Timer", "count": 60}
+        ],
+        "ingredients": [
+          {"image": "assets/images/explosives.png", "quantity": 20},
+          {"image": "assets/images/cloth.png", "quantity": 5},
+          {"image": "assets/images/techparts.png", "quantity": 2}
+        ],
+        "research": [
+          {"image_tool": "assets/images/research.table.png", "image": "assets/images/scrap.png", "quantity": 500},
+          {"image_tool": "assets/images/workbench3.png", "image": "assets/images/scrap.png", "quantity": 2125}
+        ],
+        "recycle": [
+          {"image": "assets/images/explosives.png", "quantity": 10},
+          {"image": "assets/images/cloth.png", "quantity": 3},
+          {"image": "assets/images/techparts.png", "quantity": 1}
+        ],
+        "loot": [
+          {"container": "Helicopter Crate", "chance": 26},
+          {"container": "APC Crate", "chance": 25},
+          {"container": "Supply Drop", "chance": 14},
+          {"container": "Locked Crate", "chance": 14},
+          {"container": "Elite Tier Crate", "chance": 3},
+          {"container": "Heavy Scientist", "chance": 0.3}
+        ]
+      },
+      {
+        "name": "Extended Magazine",
+        "image": "assets/images/weapon.mod.extendedmags.png",
+        "description": "Larger magazine size",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/metal.refined.png", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Double Barrel Shotgun",
+        "image": "assets/images/shotgun.double.png",
+        "description": "The Double Barrel Shotgun is a lower tier, close ranged weapon capable of one-hitting enemies within its effective range. It's best used in conjunction with other, longer range guns and against only one or two enemies at a time since it can only shoot two shells before requiring a lengthy reload. Furthermore, shots should only be made with it if it's likely that the majority of the pellets in a blast will connect with their target. It makes for a strong early game weapon because of its relatively low cost. If the extra resources are available, it's a much safer and more reliable investment than the Waterpipe Shotgun since it's not as dependent on a single shot killing an enemy. Generally, unless going into an engagement that has large group of possible enemies (like a base raid or supply drop), it'll most likely be more cost effective to take a Double Barrel over a Pump Shotgun.",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 175},
+          {"image": "assets/images/metalpipe.png", "quantity": 2}
+        ]
+      },
+      {
+        "name": "MP5A4",
+        "image": "assets/images/smg.mp5.png",
+        "description": "The MP5A4 is a craftable, military-grade 30-round submachine gun. Dealing moderate to low damage with low recoil which makes it extremely effective at close range. However, the MP5A4 has one of the widest spreads in the game, limiting its use to short range. Although, like the LR300, this can be countered with a lasersight, making it viable for medium-range combat. The MP5 is currently the only craftable military-grade weapon.",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/metal.refined.png", "quantity": 15},
+          {"image": "assets/images/smgbody.png", "quantity": 1},
+          {"image": "assets/images/metalspring.png", "quantity": 2}
+        ]
+      },
+      {
+        "name": "Nailgun",
+        "image": "assets/images/pistol.nailgun.png",
+        "description": "A low powered low range early game weapon using nailgun nails as ammunition. The nailgun is easily accessible, very cheap and makes a good secondary weapon when in early game.",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75},
+          {"image": "assets/images/scrap.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Python Revolver",
+        "image": "assets/images/pistol.python.png",
+        "description": "The Python deals a great amount of damage per shot, but it has only 6 bullets in one magazine. It is pretty useful for shorter - medium distances. If combined with something like a Thompson, or even a Nailgun, the Python is pretty useful.",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/metal.refined.png", "quantity": 10},
+          {"image": "assets/images/metalspring.png", "quantity": 1},
+          {"image": "assets/images/metalpipe.png", "quantity": 3}
+        ]
+      },
+      {
+        "name": "Revolver",
+        "image": "assets/images/pistol.revolver.png",
+        "description": "The Revolver is cheap, prime for early game use. Although inaccurate, the Revolver's quick rate of fire allows it hold its own against players at most stages. Being a revolver, it has a low capacity of just 8 shots, but it's still an upgrade from its 1- and 2- shot alternatives. Taking a Revolver to a fight against opponents with metal armor is quite risky, as such opponents will take many more shots than normal to take out (even more so considering the small capacity). It is best advised to only use the Revolver against opponents with similar armaments or as a sidearm to another weapon.",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 125},
+          {"image": "assets/images/cloth.png", "quantity": 25},
+          {"image": "assets/images/metalpipe.png", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Eoka Pistol",
+        "image": "assets/images/pistol.eoka.png",
+        "description": "The Eoka Pistol is a very cheap, very ineffective, and very unreliable firearm. It fires shotgun ammunition in a wide arc, and is capable of killing opponents in one hit (however unlikely that is). The Eoka pistol consists of a spent 20mm cartridge with a small hole on top attached to a crude wooden frame. A shotgun shell is loaded into the 20mm shell, and a stone is scraped across the hole on top to produce a spark to fire the weapon.",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 30},
+          {"image": "assets/images/wood.png", "quantity": 75}
+        ]
+      },
+      {
+        "name": "Combat Knife",
+        "image": "assets/images/knife.combat.png",
+        "description": "The best tool for harvesting animal corpses quickly and efficiently. It's also one of the best melee weapons in the game due its fast swing rate and high damage - it can also be swung while sprinting, without slowing down the user.",
+        "category": "Weapons",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/metal.refined.png", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Above Ground Pool",
+        "image": "assets/images/abovegroundpool.png",
+        "description": "A large wooden pool that can be filled with water.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 200},
+          {"image": "assets/images/tarp.png", "quantity": 3},
+          {"image": "assets/images/wood.png", "quantity": 500}
+        ]
+      },
+      {
+        "name": "Flame Turret",
+        "image": "assets/images/flameturret.png",
+        "description": "The flame turret is a unique item that is difficult to find many applications for. It mostly finds it's way into 'trap bases', where a player is locked in a tight space and is burnt to a crisp by this monster. It functions similarly to an Auto-Turret, activating only when a player without building privilege wanders in front of it. It then rotates rapidly, spewing a wall of flame in about a 30° angle in the general direction of the target until the target is dead or gone. The flame turret is fueled by low grade fuel, and has a relatively short range to it's flames. Thus, this is a trap that requires a fair bit of planning for you to make good use of, but can be a powerful ally if you do.",
+        "category": "Traps",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 200},
+          {"image": "assets/images/propanetank.png", "quantity": 2},
+          {"image": "assets/images/gears.png", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Acoustic Guitar",
+        "image": "assets/images/fun.guitar.png",
+        "description": "The acoustic guitar can be played with different notes using mouse 1 and 2, and at a variable pitch relative to where the player is looking on the vertical plane.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/wood.png", "quantity": 100},
+          {"image": "assets/images/cloth.png", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Beach Chair",
+        "image": "assets/images/beachchair.png",
+        "description": "The Beach Chair is the best way to relax, whether it's by the pool or on the beach.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/wood.png", "quantity": 50},
+          {"image": "assets/images/metal.fragments.png", "quantity": 75}
+        ]
+      },
+      {
+        "name": "Beach Parasol",
+        "image": "assets/images/beachparasol.png",
+        "description": "A large umbrella that will shield you from the sun.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/cloth.png", "quantity": 20},
+          {"image": "assets/images/metal.fragments.png", "quantity": 75}
+        ]
+      },
+      {
+        "name": "Beach Table",
+        "image": "assets/images/beachtable.png",
+        "description": "A small table to hold your drinks while relaxing.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/wood.png", "quantity": 100}
+        ]
+      },
+      {
+        "name": "Beach Towel",
+        "image": "assets/images/beachtowel.png",
+        "description": "A colourful beach towel. Placing this will give you a location to respawn.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/cloth.png", "quantity": 30}
+        ]
+      },
+      {
+        "name": "Blue Boomer",
+        "image": "assets/images/firework.boomer.blue.png",
+        "description": "A very large mortar type firework with a blue starburst",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/gunpowder.png", "quantity": 30},
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Blue Roman Candle",
+        "image": "assets/images/firework.romancandle.blue.png",
+        "description": "A small repeating firework, shoots a series of Blue balls into the air",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Boogie Board",
+        "image": "assets/images/boogieboard.png",
+        "description": "Use the boogie board to catch some sick waves.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75},
+          {"image": "assets/images/tarp.png", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Boom Box",
+        "image": "assets/images/boombox.png",
+        "description": "A large speaker to play recorded cassette tapes which can also stream audio from the internet. Open the settings to change audio options.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 100},
+          {"image": "assets/images/wood.png", "quantity": 200},
+          {"image": "assets/images/cloth.png", "quantity": 20}
+        ]
+      },
+      {
+        "name": "Canbourine",
+        "image": "assets/images/fun.tambourine.png",
+        "description": "A selection of crumpled cans assembled into a ring to produce some great background percussion.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25}
+        ]
+      },
+      {
+        "name": "Cassette - Long",
+        "image": "assets/images/cassette.png",
+        "description": "A tape that you can record audio on to using a Cassette Recorder. Stores up to 30s of audio.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 100}
+        ]
+      },
+      {
+        "name": "Cassette - Medium",
+        "image": "assets/images/cassette.medium.png",
+        "description": "A tape that you can record audio on to using a Cassette Recorder. Stores up to 20s of audio.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75}
+        ]
+      },
+      {
+        "name": "Cassette - Short",
+        "image": "assets/images/cassette.short.png",
+        "description": "A tape that you can record audio on to using a Cassette Recorder. Stores up to 10s of audio.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 50}
+        ]
+      },
+      {
+        "name": "Cassette Recorder",
+        "image": "assets/images/fun.casetterecorder.png",
+        "description": "Insert a cassette and play the recorded audio with [attack], [attack2] to record new audio and [+reload] to throw.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75}
+        ]
+      },
+      {
+        "name": "Champagne Boomer",
+        "image": "assets/images/firework.boomer.champagne.png",
+        "description": "A very large mortar type firework with an massive champagne colored explosion followed by smaller orange starbursts",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 30},
+          {"image": "assets/images/gunpowder.png", "quantity": 75},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 30}
+        ]
+      },
+      {
+        "name": "Confetti Cannon",
+        "image": "assets/images/confetticannon.png",
+        "description": "Blast a cloud of birthday themed confetti cheer.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/wood.png", "quantity": 15},
+          {"image": "assets/images/gunpowder.png", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Connected Speaker",
+        "image": "assets/images/connected.speaker.png",
+        "description": "A small speaker that will play any audio from a connected Boom Box.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75}
+        ]
+      },
+      {
+        "name": "Cowbell",
+        "image": "assets/images/fun.cowbell.png",
+        "description": "A road sign that's been repurposed to produce some beautiful, calming, percussion.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 35}
+        ]
+      },
+      {
+        "name": "Disco Ball",
+        "image": "assets/images/discoball.png",
+        "description": "Get groovy with this stunning disco ball.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 50}
+        ]
+      },
+      {
+        "name": "Disco Floor",
+        "image": "assets/images/discofloor.png",
+        "description": "A vibrant flashing floor that pulses in time to music.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75}
+        ]
+      },
+      {
+        "name": "Firecracker String",
+        "image": "assets/images/lunar.firecrackers.png",
+        "description": "Happy Lunar New Year!",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 5},
+          {"image": "assets/images/gunpowder.png", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Green Boomer",
+        "image": "assets/images/firework.boomer.green.png",
+        "description": "A very large mortar type firework with a green starburst",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/gunpowder.png", "quantity": 30},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Green Roman Candle",
+        "image": "assets/images/firework.romancandle.green.png",
+        "description": "A small repeating firework, shoots a series of Green balls into the air",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Inner Tube",
+        "image": "assets/images/innertube.png",
+        "description": "An inflated tube for aquatic activities.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75},
+          {"image": "assets/images/tarp.png", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Jerry Can Guitar",
+        "image": "assets/images/fun.jerrycanguitar.png",
+        "description": "Take advantage of the unique acoustics of the Jerry Can Guitar to play some rustic tunes.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 50},
+          {"image": "assets/images/wood.png", "quantity": 25}
+        ]
+      },
+      {
+        "name": "Junkyard Drum Kit",
+        "image": "assets/images/drumkit.png",
+        "description": "An array of pots, pans and buckets that passes as a serviceable Drum Kit. Three cymbals, some Tom Drums and a Kick Drum means you can easily lay down a beat.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 100},
+          {"image": "assets/images/wood.png", "quantity": 200}
+        ]
+      },
+      {
+        "name": "Laser Light",
+        "image": "assets/images/laserlight.png",
+        "description": "A small device that shoots out visible lasers in time to music.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 100}
+        ]
+      },
+      {
+        "name": "Megaphone",
+        "image": "assets/images/megaphone.png",
+        "description": "A megaphone that lets you broadcast your voice. [attack] to activate your voice.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75},
+          {"image": "assets/images/wood.png", "quantity": 50}
+        ]
+      },
+      {
+        "name": "Microphone Stand",
+        "image": "assets/images/microphonestand.png",
+        "description": "A powered microphone that lets you broadcast your voice. Press [+reload] to change voice mode between high and low pitch.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75}
+        ]
+      },
+      {
+        "name": "Mobile Phone",
+        "image": "assets/images/mobilephone.png",
+        "description": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialler.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 125}
+        ]
+      },
+      {
+        "name": "New Year Gong",
+        "image": "assets/images/newyeargong.png",
+        "description": "Ring in the Lunar new year with a massive gong!",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 50},
+          {"image": "assets/images/wood.png", "quantity": 100}
+        ]
+      },
+      {
+        "name": "Orange Boomer",
+        "image": "assets/images/firework.boomer.orange.png",
+        "description": "A very large mortar type firework with an orange starburst",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/gunpowder.png", "quantity": 30},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Paddling Pool",
+        "image": "assets/images/paddlingpool.png",
+        "description": "A small inflatable pool that you can fill up with water.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/cloth.png", "quantity": 100},
+          {"image": "assets/images/tarp.png", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Pan Flute",
+        "image": "assets/images/fun.flute.png",
+        "description": "A set of repurposed PVC pipes that can be used to play a variety of melodies.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 20},
+          {"image": "assets/images/cloth.png", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Pattern Boomer",
+        "image": "assets/images/firework.boomer.pattern.png",
+        "description": "A special boomer which allows you light up the night sky with a custom pattern that you draw. Multiple colors and altitude settings are available.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 50},
+          {"image": "assets/images/gunpowder.png", "quantity": 30},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Pinata",
+        "image": "assets/images/pinata.png",
+        "description": "Batter up!",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/wood.png", "quantity": 500}
+        ]
+      },
+      {
+        "name": "Plumber's Trumpet",
+        "image": "assets/images/fun.trumpet.png",
+        "description": "Toot your own horn with this brassy improvised Trumpet.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75}
+        ]
+      },
+      {
+        "name": "Portable Boom Box",
+        "image": "assets/images/fun.boomboxportable.png",
+        "description": "The Portable Boom Box can stream real world radio stations, and you can only use it on your hands. Voice Props DLC is required to craft it. Stationary Boom Boxes can be found in the Underwater labs. These can be useful to drown out and 'hide' your stepping sounds. Other players may have muted streams and cannot hear Boomboxes, making them useless to cover your steps. Custom Streams have to be provided by the Server.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 120}
+        ]
+      },
+      {
+        "name": "Red Boomer",
+        "image": "assets/images/firework.boomer.red.png",
+        "description": "A very large mortar type firework with a red starburst",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/gunpowder.png", "quantity": 30},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Red Roman Candle",
+        "image": "assets/images/firework.romancandle.red.png",
+        "description": "A small repeating firework, shoots a series of red balls into the air",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Red Volcano Firework",
+        "image": "assets/images/firework.volcano.red.png",
+        "description": "Emits a beautiful shower of red sparks",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 20},
+          {"image": "assets/images/gunpowder.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Shovel Bass",
+        "image": "assets/images/fun.bass.png",
+        "description": "Use this stringed together shovel to play some deep, deep tunes.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 75},
+          {"image": "assets/images/wood.png", "quantity": 50}
+        ]
+      },
+      {
+        "name": "Skull Spikes",
+        "image": "assets/images/skullspikes.png",
+        "description": "A spike of several skulls. Very spooky.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/wood.png", "quantity": 150},
+          {"image": "assets/images/skull.human.png", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Skull Trophy",
+        "image": "assets/images/skull.trophy.png",
+        "description": "A decorative mount that can hold the skull of a friend or foe.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/wood.png", "quantity": 100},
+          {"image": "assets/images/metal.fragments.png", "quantity": 25}
+        ]
+      },
+      {
+        "name": "Sky Lantern",
+        "image": "assets/images/skylantern.png",
+        "description": "A beautiful sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/cloth.png", "quantity": 10},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Sled",
+        "image": "assets/images/sled.png",
+        "description": "A wooden sled to quickly travel down snowy hills.",
+        "category": "Fun",
+        "ingredients": []
+      },
+      {
+        "name": "Sound Light",
+        "image": "assets/images/soundlight.png",
+        "description": "A light that will pulse in time to music when connected to a Boom Box.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 100}
+        ]
+      },
+      {
+        "name": "Sousaphone",
+        "image": "assets/images/fun.tuba.png",
+        "description": "A collection of used piping that’s been converted into a Tuba. Probably not very hygienic.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 100}
+        ]
+      },
+      {
+        "name": "Telephone",
+        "image": "assets/images/telephone.png",
+        "description": "Use the telephone to call other telephones on the island!",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 100},
+          {"image": "assets/images/wood.png", "quantity": 50},
+          {"image": "assets/images/techparts.png", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Violet Boomer",
+        "image": "assets/images/firework.boomer.violet.png",
+        "description": "A very large mortar type firework with a violet starburst",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/gunpowder.png", "quantity": 30},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Violet Roman Candle",
+        "image": "assets/images/firework.romancandle.violet.png",
+        "description": "A small repeating firework, shoots a series of Violet balls into the air",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 25},
+          {"image": "assets/images/lowgradefuel.png", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Violet Volcano Firework",
+        "image": "assets/images/firework.volcano.violet.png",
+        "description": "Emits a beautiful shower of Violet sparks",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 20},
+          {"image": "assets/images/gunpowder.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Wheelbarrow Piano",
+        "image": "assets/images/piano.png",
+        "description": "The Piano is a repurposed wheelbarrow that weighs a ton, but makes up for it with a wide range of notes.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 100},
+          {"image": "assets/images/wood.png", "quantity": 200}
+        ]
+      },
+      {
+        "name": "White Volcano Firework",
+        "image": "assets/images/firework.volcano.png",
+        "description": "Emits a beautiful shower of white sparks",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/metal.fragments.png", "quantity": 20},
+          {"image": "assets/images/gunpowder.png", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Wrapped Gift",
+        "image": "assets/images/wrappedgift.png",
+        "description": "A lazily wrapped gift.",
+        "category": "Fun",
+        "ingredients": []
+      },
+      {
+        "name": "Wrapping Paper",
+        "image": "assets/images/wrappingpaper.png",
+        "description": "Use this to conceal any item in a lazily wrapped gift",
+        "category": "Fun",
+        "ingredients": []
+      },
+      {
+        "name": "Xylobone",
+        "image": "assets/images/xylophone.png",
+        "description": "A selection of bones that were “acquired” for their acoustic attributes. Play a lullaby for your camp with these soothing tones.",
+        "category": "Fun",
+        "ingredients": [
+          {"image": "assets/images/bone.fragments.png", "quantity": 50}
+        ]
+      }
+  ]
+  
